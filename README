@@ -1,0 +1,38 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1200
+
+Namazu is a full text search engine.
+See http://www.namazu.org/.
+
+namazu.vim has the following features.
+   - searching from the namazu index.
+   - open a file from search result. (now, only a plain text file)
+
+" Options:
+"
+"   let g:namazu_cmd   = '/path/to/namazu'
+"                        (default: namazu)
+"
+"   let g:namazu_index = '/path/to/indexdirectory'
+"                        (Can be a space-separated list)
+"
+"   let g:namazu_range = NUMBER
+"                        Set the number of documents shown to NUMBER.
+"                        (default: 30)
+"
+"   let g:namazu_color = NUMBER
+"                        Set this to zero to disable syntax
+"                        highlighting.  (default: 1)
+"
+" Usage:
+"
+"   Type :Namazu<CR> to start searching.
+"
+"   <enter> : Open a selected file.
+"   r       : Research.
+"   s       : Set a sort METHOD (score, date)
+"   k       : Move to a previous result.
+"   j       : Move to a next result.
+"   h       : Move to a previous page.
+"   l       : Move to a next page.
+"   q       : Close the namazu window.
+"
